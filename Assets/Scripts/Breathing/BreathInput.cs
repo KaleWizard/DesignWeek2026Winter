@@ -31,5 +31,14 @@ public class BreathInput : MonoSingleton<BreathInput>
     void Update()
     {
         lastInputValue = (leftBreath.ReadValue<float>() + rightBreath.ReadValue<float>()) / 2;
+
+#if UNITY_EDITOR
+        if (Keyboard.current.digit1Key.isPressed)
+            lastInputValue = 0.33f;
+        else if (Keyboard.current.digit2Key.isPressed)
+            lastInputValue = 0.67f;
+        else if (Keyboard.current.digit3Key.isPressed)
+            lastInputValue = 1;
+#endif
     }
 }

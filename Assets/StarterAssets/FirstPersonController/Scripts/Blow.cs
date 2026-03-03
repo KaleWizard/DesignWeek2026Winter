@@ -1,6 +1,7 @@
 using StarterAssets;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Blow : MonoBehaviour
 {
@@ -51,6 +52,7 @@ public class Blow : MonoBehaviour
             + (bb.transform.position - transform.position);
 
         float mod = blowValue * (blowValue > 0 ? inhaleStrength : exhaleStrength);
+
         Vector3 force = mod * direction.normalized;
 
         bb.Blow(force);
