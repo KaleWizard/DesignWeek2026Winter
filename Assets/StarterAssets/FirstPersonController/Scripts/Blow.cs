@@ -11,7 +11,7 @@ public class Blow : MonoBehaviour
 
     [SerializeField] FirstPersonController playerController;
 
-    List<Rigidbody> blowBodies = new();
+    List<BlowBehaviour> blowBodies = new();
 
     // Update is called once per frame
     void FixedUpdate()
@@ -28,35 +28,35 @@ public class Blow : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent<Rigidbody>(out var rb))
+        if (other.TryGetComponent<BlowBehaviour>(out var bb))
         {
-            blowBodies.Add(rb);
+            blowBodies.Add(bb);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.TryGetComponent<Rigidbody>(out var rb))
+        if (other.TryGetComponent<BlowBehaviour>(out var bb))
         {
-            blowBodies.Remove(rb);
+            blowBodies.Remove(bb);
         }
     }
 
-    void BlowBody(Rigidbody rb, float blowValue)
+    void BlowBody(BlowBehaviour bb, float blowValue)
     {
-        if (!ShouldBlow(rb)) return;
+        if (!ShouldBlow(bb)) return;
 
         Vector3 direction =
             transform.forward * 2
-            + (rb.transform.position - transform.position);
+            + (bb.transform.position - transform.position);
 
         float mod = blowValue * (blowValue > 0 ? inhaleStrength : exhaleStrength);
         Vector3 force = mod * direction.normalized;
 
-        rb.AddForce(force, ForceMode.VelocityChange);
+        bb.Blow(force);
     }
 
-    bool ShouldBlow(Rigidbody rb)
+    bool ShouldBlow(BlowBehaviour bb)
     {
         return true;
     }
