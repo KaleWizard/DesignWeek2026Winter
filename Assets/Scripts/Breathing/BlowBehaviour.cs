@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public abstract class BlowBehaviour : MonoBehaviour
 {
-    private Rigidbody rb;
+    protected Rigidbody rb;
 
+
+    //public UnityEvent<Vector3> OnBlownEvent;
     protected abstract void OnBlown(Vector3 blowVector);
 
     public void Blow(Vector3 blowVector)

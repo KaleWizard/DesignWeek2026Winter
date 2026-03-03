@@ -11,6 +11,15 @@ namespace StarterAssets
 #endif
 	public class FirstPersonController : MonoBehaviour
 	{
+		[Header("Blow Recoil")]
+		public float RecoilStrengthX = 1f;
+		public float RecoilStrengthY = 1f;
+		[Tooltip("Make this number smaller to decrease recoil time"), Range(0.0000001f, 0.5f)]
+		public float RecoilFalloff = 0.0001f;
+		[Tooltip("Make this number larger to decrease recoil time"), Range(0.0f, 1.0f)]
+		public float RecoilThreshold = 0.01f;
+
+		[Space(10)]
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
 		public float MoveSpeed = 4.0f;
@@ -78,8 +87,8 @@ namespace StarterAssets
 
 		public void AddVelocity(Vector3 velocity)
 		{
-			_verticalVelocity = velocity.y;
-			_horizontalVelocity += new Vector2(velocity.x, velocity.z);
+			_verticalVelocity += velocity.y * RecoilStrengthY;
+			_horizontalVelocity += RecoilStrengthX * new Vector2(velocity.x, velocity.z);
 		}
 
 		private bool IsCurrentDeviceMouse
@@ -162,7 +171,7 @@ namespace StarterAssets
 		private void Move()
 		{
 			// set target speed based on move speed, sprint speed and if sprint is pressed
-			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
+			float targetSpeed = (_input.move * (_input.sprint ? SprintSpeed : MoveSpeed) + _horizontalVelocity).magnitude;
 
 			// a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
 
@@ -174,14 +183,14 @@ namespace StarterAssets
 			float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
 
 			float speedOffset = 0.1f;
-			float inputMagnitude = _input.analogMovement ? _input.move.magnitude + _horizontalVelocity.magnitude : 1f;
+			float inputMagnitude = _input.analogMovement ? _input.move.magnitude : 1f;
 
 			// accelerate or decelerate to target speed
 			if (currentHorizontalSpeed < targetSpeed - speedOffset || currentHorizontalSpeed > targetSpeed + speedOffset)
 			{
 				// creates curved result rather than a linear one giving a more organic speed change
 				// note T in Lerp is clamped, so we don't need to clamp our speed
-				_speed = Mathf.Lerp(currentHorizontalSpeed, targetSpeed * inputMagnitude, Time.deltaTime * SpeedChangeRate);
+				_speed = Mathf.Lerp(currentHorizontalSpeed, (targetSpeed * inputMagnitude + _horizontalVelocity.magnitude), Time.deltaTime * SpeedChangeRate);
 
 				// round speed to 3 decimal places
 				_speed = Mathf.Round(_speed * 1000f) / 1000f;
@@ -193,9 +202,9 @@ namespace StarterAssets
 
 			// normalise input direction
 			Vector3 inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
-			inputDirection += new Vector3(_horizontalVelocity.x, _horizontalVelocity.y, 0.0f);
+			inputDirection += new Vector3(_horizontalVelocity.x, 0.0f, _horizontalVelocity.y);
 
-            inputDirection = new Vector3(inputDirection.x, 0.0f, inputDirection.z).normalized;
+            //inputDirection += new Vector3(inputDirection.x, 0.0f, inputDirection.z).normalized;
 
 			// note: Vector2's != operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is a move input rotate player when the player is moving
@@ -204,8 +213,8 @@ namespace StarterAssets
 			//	// move
 			//	inputDirection = transform.right * (_input.move.x + _horizontalVelocity.x) + transform.forward * (_input.move.y + _horizontalVelocity.y);
 			//}
-			_horizontalVelocity *= Mathf.Pow(0.001f, Time.deltaTime);
-			if (_horizontalVelocity.sqrMagnitude < 0.01f)
+			_horizontalVelocity *= Mathf.Pow(RecoilFalloff, Time.deltaTime);
+			if (_horizontalVelocity.sqrMagnitude < RecoilThreshold)
 				_horizontalVelocity = Vector2.zero;
 
 			// move the player
