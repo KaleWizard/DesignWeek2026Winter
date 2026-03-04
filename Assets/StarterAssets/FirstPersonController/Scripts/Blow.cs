@@ -12,6 +12,9 @@ public class Blow : MonoBehaviour
 
     [SerializeField] FirstPersonController playerController;
 
+    [SerializeField] ParticleSystem particleSpawnerSpawner;
+    [SerializeField] ParticleSystem particleSpawner;
+
     List<BlowBehaviour> blowBodies = new();
 
     // Update is called once per frame
@@ -55,7 +58,7 @@ public class Blow : MonoBehaviour
 
         Vector3 force = mod * direction.normalized;
 
-        bb.Blow(force);
+        bb.Blow(force, transform);
     }
 
     bool ShouldBlow(BlowBehaviour bb)
