@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49718376788ddf645bb222e3c671c327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::merryGoRound
-  spinPower: 50
+  spinPower: 5
   slowdown: 5
   spinSpeed: 0
 --- !u!4 &269174612 stripped
@@ -414,7 +414,9 @@ MonoBehaviour:
   riderTag: NPC
   spinner: {fileID: 269174608}
   ejectSpinSpeed: 250
-  ejectForce: 5
+  ejectVelocity: 12
+  ejectUpBoost: 1.5
+  ejectCooldown: 0.5
 --- !u!4 &301693703 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
@@ -1961,7 +1963,7 @@ GameObject:
   - component: {fileID: 999008693}
   - component: {fileID: 999008697}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: PIG
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
