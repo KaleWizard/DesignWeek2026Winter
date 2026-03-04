@@ -2355,9 +2355,61 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8345070699414287370}
     m_Modifications:
+    - target: {fileID: 360050167445891368, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1255923089828118954, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350315734806938463, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531300309522136796, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1707872218625225648, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1746834170220719849, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795865073837101411, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894217142829506204, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2187402989139419942, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2435685268341366546, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
       propertyPath: m_Name
       value: Red house (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488428462966373688, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649007680078403621, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986695153652954738, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610354377395344781, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7129341274211874906, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2398,6 +2450,38 @@ PrefabInstance:
     - target: {fileID: 7129341274211874906, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258555033144832828, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7298677548788859324, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7486982080006858185, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7602378087963674010, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7664185790555349176, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708082549347114238, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205604500406227409, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9216901353102910288, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

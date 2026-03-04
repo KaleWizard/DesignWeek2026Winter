@@ -19,15 +19,22 @@ public class BlowOffStructure : BlowBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        TryDetach(collision.impulse);
+        if (TryDetach(collision.impulse))
+        {
+            if (collision.rigidbody != null)
+            {
+                //collision.rigidbody.AddForce(-collision.impulse, ForceMode.VelocityChange);
+            }
+        }
     }
 
-    void TryDetach(Vector3 force)
+    bool TryDetach(Vector3 force)
     {
-        if (force.magnitude < threshold || !rb.isKinematic) return;
+        if (force.magnitude < threshold || !rb.isKinematic) return false;
 
         rb.isKinematic = false;
         rb.AddForce(force, ForceMode.VelocityChange);
         rb.AddTorque(Random.insideUnitSphere * 10);
+        return true;
     }
 }

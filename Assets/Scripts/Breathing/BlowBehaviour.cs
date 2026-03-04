@@ -7,9 +7,11 @@ public abstract class BlowBehaviour : MonoBehaviour
 
 
     //public UnityEvent<Vector3> OnBlownEvent;
-    protected abstract void OnBlown(Vector3 blowVector);
+    //new on blown with transform other... transform other is the transform on the player for the hitbox. use this for the sound 
+    protected virtual void OnBlown(Vector3 blowVector, Transform other) { }
+    protected virtual void OnBlown(Vector3 blowVector) { }
 
-    public void Blow(Vector3 blowVector)
+    public void Blow(Vector3 blowVector, Transform other)
     {
         if (rb != null)
         {
@@ -17,6 +19,7 @@ public abstract class BlowBehaviour : MonoBehaviour
         }
 
         OnBlown(blowVector);
+        OnBlown(blowVector, other);
     }
 
     private void Awake()
