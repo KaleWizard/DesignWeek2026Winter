@@ -17,7 +17,7 @@ public class Blow : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float blowVal = BreathInput.AccumulatedDelta;
+        float blowVal = BreathInput.FixedDelta;
 
         foreach (var b in blowBodies)
         {
