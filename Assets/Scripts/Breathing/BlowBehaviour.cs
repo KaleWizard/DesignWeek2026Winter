@@ -7,6 +7,7 @@ public abstract class BlowBehaviour : MonoBehaviour
 
 
     //public UnityEvent<Vector3> OnBlownEvent;
+    //new on blown with transform other... transform other is the transform on the player for the hitbox. use this for the sound 
     protected virtual void OnBlown(Vector3 blowVector, Transform other) { }
     protected virtual void OnBlown(Vector3 blowVector) { }
 
@@ -17,6 +18,7 @@ public abstract class BlowBehaviour : MonoBehaviour
             rb.AddForce(blowVector, ForceMode.VelocityChange);
         }
 
+        OnBlown(blowVector);
         OnBlown(blowVector, other);
     }
 
