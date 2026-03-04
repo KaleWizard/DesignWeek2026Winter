@@ -17,6 +17,7 @@ public abstract class BlowBehaviour : MonoBehaviour
             rb.AddForce(blowVector, ForceMode.VelocityChange);
         }
 
+        OnBlown(blowVector);
         OnBlown(blowVector, other);
     }
 
