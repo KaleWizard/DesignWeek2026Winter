@@ -7,11 +7,23 @@ using UnityEngine.InputSystem;
 
 public class Blow : MonoBehaviour
 {
-    
-    [SerializeField] float inhaleStrength = 10f;
-    [SerializeField] float exhaleStrength = 2f;
+    [System.Serializable]
+    public class BlowStats
+    {
+        [SerializeField] float inhaleStrength = 10f;
+        [SerializeField] float exhaleStrength = 2f;
 
-    [SerializeField] float playerMoveStrength = 10f;
+        [SerializeField] float playerMoveStrength = 10f;
+
+        [SerializeField] float timeBeforeTimeout = 1.5f;
+
+        [SerializeField] float fullPressThreshold = 0.67f;
+        [SerializeField] float minBlowQuantity = 0f;
+    }
+
+    [SerializeField] List<BlowStats> blowStats = new();
+    int maxBlow = 0;
+    float blowTimer = 0;
 
 
     [SerializeField] float refreshTime = 0.5f;
@@ -79,7 +91,23 @@ public class Blow : MonoBehaviour
     float GetBlowStrength()
     {
         secondLastBreathValue = lastBreathValue;
-        lastBreathValue = Mathf.Min(1 - BreathInput.Value, lastBreathValue + refreshRate * Time.deltaTime);
+        //lastBreathValue = Mathf.Min(1 - BreathInput.Value, lastBreathValue + refreshRate * Time.deltaTime);
+
+        var currentBlow = blowBodies[maxBlow];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         return lastBreathValue - secondLastBreathValue;
     }
 
