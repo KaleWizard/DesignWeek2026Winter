@@ -43,6 +43,6 @@ public class BreathInput : MonoSingleton<BreathInput>
 
     float GetInputValue()
     {
-        return (leftBreath.ReadValue<float>() + rightBreath.ReadValue<float>()) / 2;
+        return (leftBreath.ReadValue<float>() * rightBreath.ReadValue<float>());
     }
 }

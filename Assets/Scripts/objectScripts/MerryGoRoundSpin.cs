@@ -47,7 +47,6 @@ public class MerryGoRoundSpin : BlowBehaviour
         transform.Rotate(Vector3.forward, spinSpeed * Time.deltaTime, Space.Self);
 
         // Gradually reduce the spin speed so it slows down over time
-
         spinSpeed *= Mathf.Pow(falloff, Time.deltaTime);
     }
 }
