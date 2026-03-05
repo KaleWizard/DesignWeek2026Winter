@@ -8,6 +8,8 @@ public class BlowOffStructure : BlowBehaviour
     [SerializeField] List<Collider> collidersToDisable = new();
     [SerializeField] List<GameObject> objsToReparent = new();
 
+    public bool dontDetach = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -33,7 +35,7 @@ public class BlowOffStructure : BlowBehaviour
 
     bool TryDetach(Vector3 force)
     {
-        if (force.magnitude < threshold || !rb.isKinematic) return false;
+        if (dontDetach || force.magnitude < threshold || !rb.isKinematic) return false;
 
         foreach (var c in collidersToDisable)
         {
