@@ -585,6 +585,82 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[1].time
+      value: 0.5028459
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[1].value
+      value: 1.5131702
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[2].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[0].inSlope
+      value: 1.0205319
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[1].inSlope
+      value: -0.0058418512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[2].inSlope
+      value: -1.0322156
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[0].outSlope
+      value: 1.0205319
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[1].outSlope
+      value: -0.0058418512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[2].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[2].outSlope
+      value: -1.0322156
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[0].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644250271145990750, guid: ecbe3a4343416984e92aebea346e1968, type: 3}
+      propertyPath: windmillCurve.m_Curve.Array.data[2].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1777,6 +1853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49718376788ddf645bb222e3c671c327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::merryGoRound
+  falloff: 0.9
   spinPower: 5
   slowdown: 5
   spinSpeed: 0
@@ -4740,6 +4817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49718376788ddf645bb222e3c671c327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::merryGoRound
+  falloff: 0.9
   spinPower: 5
   slowdown: 5
   spinSpeed: 0
