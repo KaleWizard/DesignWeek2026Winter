@@ -25,7 +25,6 @@ public class WindmillRotate : BlowBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        print(transform.localEulerAngles);
         Vector3 rot = transform.localEulerAngles;
         bool reverseDirection = rot.y > 90;
         rot.x += (reverseDirection ? -1 : 1) * angularSpeed * Time.deltaTime;

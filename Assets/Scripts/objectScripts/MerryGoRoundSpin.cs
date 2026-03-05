@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class MerryGoRoundSpin : BlowBehaviour
 {
+
+    [SerializeField] float falloff = 0.9f;
+
     // How powerful the spin added from a blow is.
     // Bigger number = stronger spins when the player blows.
     [SerializeField] float spinPower = 250f;
@@ -44,6 +47,6 @@ public class MerryGoRoundSpin : BlowBehaviour
         transform.Rotate(Vector3.forward, spinSpeed * Time.deltaTime, Space.Self);
 
         // Gradually reduce the spin speed so it slows down over time
-        spinSpeed = Mathf.MoveTowards(spinSpeed, 0f, slowdown * Time.deltaTime);
+        spinSpeed = Mathf.Pow(falloff, Time.deltaTime);
     }
 }

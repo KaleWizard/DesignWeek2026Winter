@@ -27,11 +27,11 @@ public class BreathInput : MonoSingleton<BreathInput>
     {
         lastInputValue = GetInputValue();
 
-        if (Keyboard.current.digit1Key.isPressed)
+        if (Keyboard.current.digit1Key.isPressed || Mouse.current.leftButton.isPressed)
             lastInputValue = 0.33f;
         else if (Keyboard.current.digit2Key.isPressed)
             lastInputValue = 0.67f;
-        else if (Keyboard.current.digit3Key.isPressed)
+        else if (Keyboard.current.digit3Key.isPressed || Mouse.current.rightButton.isPressed)
             lastInputValue = 1;
     }
 
@@ -43,6 +43,6 @@ public class BreathInput : MonoSingleton<BreathInput>
 
     float GetInputValue()
     {
-        return (leftBreath.ReadValue<float>() + rightBreath.ReadValue<float>()) / 2;
+        return (leftBreath.ReadValue<float>() * rightBreath.ReadValue<float>());
     }
 }
