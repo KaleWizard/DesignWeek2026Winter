@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4135013735270702856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlayerCameraRoot
   m_TagString: CinemachineTarget
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 5393215578589016654}
   - component: {fileID: 5393215578589016655}
   - component: {fileID: 5393215578589016640}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 5876475309248676155}
   - component: {fileID: 29133355547718627}
   - component: {fileID: 6217137326955585631}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5075,7 +5075,7 @@ GameObject:
   - component: {fileID: 5420857361349278248}
   - component: {fileID: 8616685848737228376}
   - component: {fileID: 8238966341792182700}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: PlayerCapsule
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -5139,7 +5139,9 @@ MonoBehaviour:
   RecoilStrengthX: 4
   RecoilStrengthY: 8
   RecoilFalloff: 0.0001
+  RecoilFalloffAir: 0.15
   RecoilThreshold: 0.01
+  bHopForgiveness: 0.25
   MoveSpeed: 4
   SprintSpeed: 6
   RotationSpeed: 1
@@ -5149,7 +5151,7 @@ MonoBehaviour:
   JumpTimeout: 0.1
   FallTimeout: 0.15
   Grounded: 1
-  GroundedOffset: -0.2
+  GroundedOffset: -0.17
   GroundedRadius: 0.5
   GroundLayers:
     serializedVersion: 2
@@ -5329,7 +5331,7 @@ GameObject:
   - component: {fileID: 8626867037510267482}
   - component: {fileID: 5775855477940018690}
   - component: {fileID: 2728085632223640622}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BlowHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -20,8 +20,9 @@ namespace StarterAssets
         public float RecoilFalloffAir = 0.15f;
         [Tooltip("Make this number larger to decrease recoil time"), Range(0.0f, 1.0f)]
 		public float RecoilThreshold = 0.01f;
+        public float bHopForgiveness = 0.25f;
 
-		[Space(10)]
+        [Space(10)]
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
 		public float MoveSpeed = 4.0f;
@@ -77,6 +78,9 @@ namespace StarterAssets
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
 
+		private float bHopTimeoutTimer = 0;
+		bool InBHopForgiveness => bHopTimeoutTimer < bHopForgiveness;
+
 	
 #if ENABLE_INPUT_SYSTEM
 		private PlayerInput _playerInput;
@@ -129,8 +133,9 @@ namespace StarterAssets
 			_fallTimeoutDelta = FallTimeout;
 		}
 
-		private void Update()
+		private void FixedUpdate()
 		{
+			bHopTimeoutTimer += Time.deltaTime;
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
@@ -146,6 +151,7 @@ namespace StarterAssets
 			// set sphere position, with offset
 			Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z);
 			Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
+			if (!Grounded) bHopTimeoutTimer = 0;
 		}
 
 		private void CameraRotation()
@@ -215,7 +221,7 @@ namespace StarterAssets
 			//	// move
 			//	inputDirection = transform.right * (_input.move.x + _horizontalVelocity.x) + transform.forward * (_input.move.y + _horizontalVelocity.y);
 			//}
-			_horizontalVelocity *= Mathf.Pow(Grounded ? RecoilFalloff : RecoilFalloffAir, Time.deltaTime);
+			_horizontalVelocity *= Mathf.Pow(Grounded && !InBHopForgiveness ? RecoilFalloff : RecoilFalloffAir, Time.deltaTime);
 			if (_horizontalVelocity.sqrMagnitude < RecoilThreshold)
 				_horizontalVelocity = Vector2.zero;
 
