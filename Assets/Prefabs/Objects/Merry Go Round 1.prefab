@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2999084660108362364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7383634296648568596}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7383634296648568596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2999084660108362364}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1366585944394116618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1548587156721256929
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.35
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      propertyPath: m_Name
+      value: Merry Go Round 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7383634296648568596}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2836448503772663174}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7789515306236587312}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5698973011429906267}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5313348423129215127}
+  m_SourcePrefab: {fileID: 100100000, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+--- !u!4 &1366585944394116618 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+  m_PrefabInstance: {fileID: 1548587156721256929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1854574856584524976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+  m_PrefabInstance: {fileID: 1548587156721256929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2836448503772663174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854574856584524976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49718376788ddf645bb222e3c671c327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::merryGoRound
+  spinPower: 5
+  slowdown: 5
+  spinSpeed: 0
+--- !u!64 &7789515306236587312
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854574856584524976}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8314571269056883277, guid: 54dd8392d0a25d146bfcb1b8a86a1f54, type: 3}
+--- !u!65 &5698973011429906267
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854574856584524976}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.029659241, y: 0.02965924, z: 0.008716477}
+  m_Center: {x: -0.0000039148144, y: -0.000003223308, z: -0.00083463365}
+--- !u!114 &5313348423129215127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854574856584524976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcecf6807948c87488c255bf33cf6edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::movingPlatform
+  riderTag: NPC
+  spinner: {fileID: 2836448503772663174}
+  ejectSpinSpeed: 250
+  ejectVelocity: 12
+  ejectUpBoost: 1.5
+  ejectCooldown: 0.5
