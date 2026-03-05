@@ -1777,6 +1777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49718376788ddf645bb222e3c671c327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::merryGoRound
+  falloff: 0.9
   spinPower: 5
   slowdown: 5
   spinSpeed: 0
@@ -4740,6 +4741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49718376788ddf645bb222e3c671c327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::merryGoRound
+  falloff: 0.9
   spinPower: 5
   slowdown: 5
   spinSpeed: 0
