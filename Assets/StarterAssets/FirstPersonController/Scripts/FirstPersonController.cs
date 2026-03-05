@@ -133,7 +133,7 @@ namespace StarterAssets
 			_fallTimeoutDelta = FallTimeout;
 		}
 
-		private void FixedUpdate()
+		private void Update()
 		{
 			bHopTimeoutTimer += Time.deltaTime;
 			JumpAndGravity();
