@@ -14,9 +14,11 @@ namespace StarterAssets
 		[Header("Blow Recoil")]
 		public float RecoilStrengthX = 1f;
 		public float RecoilStrengthY = 1f;
-		[Tooltip("Make this number smaller to decrease recoil time"), Range(0.0000001f, 0.5f)]
-		public float RecoilFalloff = 0.0001f;
-		[Tooltip("Make this number larger to decrease recoil time"), Range(0.0f, 1.0f)]
+        [Tooltip("Make this number smaller to decrease recoil time"), Range(0.0000001f, 0.5f)]
+        public float RecoilFalloff = 0.0001f;
+        [Tooltip("Make this number smaller to decrease recoil time"), Range(0f, 0.5f)]
+        public float RecoilFalloffAir = 0.15f;
+        [Tooltip("Make this number larger to decrease recoil time"), Range(0.0f, 1.0f)]
 		public float RecoilThreshold = 0.01f;
 
 		[Space(10)]
@@ -213,7 +215,7 @@ namespace StarterAssets
 			//	// move
 			//	inputDirection = transform.right * (_input.move.x + _horizontalVelocity.x) + transform.forward * (_input.move.y + _horizontalVelocity.y);
 			//}
-			_horizontalVelocity *= Mathf.Pow(RecoilFalloff, Time.deltaTime);
+			_horizontalVelocity *= Mathf.Pow(Grounded ? RecoilFalloff : RecoilFalloffAir, Time.deltaTime);
 			if (_horizontalVelocity.sqrMagnitude < RecoilThreshold)
 				_horizontalVelocity = Vector2.zero;
 
