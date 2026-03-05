@@ -37,6 +37,15 @@ public class Blow : MonoBehaviour
     public float secondLastBreathValue = 1;
     public float lastBreathValue = 1;
 
+    public AudioSource blowingAudio;
+    public AudioClip blowClip;
+    void PlaySound(float value)
+    {
+        if (blowingAudio.isPlaying) return;
+        blowingAudio.clip = blowClip;
+        blowingAudio.Play();
+    }
+
     private void Start()
     {
         refreshRate = 1 / refreshTime;
@@ -52,10 +61,15 @@ public class Blow : MonoBehaviour
     {
         float blowVal = -GetBlowStrength();
 
-        foreach (var b in blowBodies)
-        {
-            BlowBody(b, blowVal);
-        }
+        if (blowVal > 0.0001f)
+            PlaySound(blowVal);
+        else
+            blowingAudio.Stop();
+
+            foreach (var b in blowBodies)
+            {
+                BlowBody(b, blowVal);
+            }
 
         BlowPlayer(blowVal);
     }
