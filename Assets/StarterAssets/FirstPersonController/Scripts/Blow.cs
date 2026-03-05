@@ -20,8 +20,12 @@ public class Blow : MonoBehaviour
         [SerializeField] float fullPressThreshold = 0.67f;
         [SerializeField] float minBlowQuantity = 0f;
     }
+    [SerializeField] float inhaleStrength = 10f;
+    [SerializeField] float exhaleStrength = 2f;
 
-    [SerializeField] List<BlowStats> blowStats = new();
+    [SerializeField] float playerMoveStrength = 10f;
+
+    public List<BlowStats> blowStats = new();
     int maxBlow = 0;
     float blowTimer = 0;
 
