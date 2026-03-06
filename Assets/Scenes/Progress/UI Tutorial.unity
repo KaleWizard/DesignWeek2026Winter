@@ -5701,10 +5701,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3669222467703603279, guid: 6c231a127156a774b8f3769f5dafd02e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 928613139}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c231a127156a774b8f3769f5dafd02e, type: 3}
 --- !u!1001 &350125918
 PrefabInstance:
@@ -13391,24 +13388,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6945116205507805433, guid: acbdb3768ae79ed449b0f9a6eb3f79a2, type: 3}
   m_PrefabInstance: {fileID: 338227845}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &928613135 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3669222467703603279, guid: 6c231a127156a774b8f3769f5dafd02e, type: 3}
-  m_PrefabInstance: {fileID: 343595671}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &928613139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928613135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39f314ce22484ba4e9e4de4cc78e7778, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SoftBlowTrigger
-  speed: 2
 --- !u!4 &928657918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7179222262409077668, guid: 01c9fa01f746ada40b5b5dc9dcb9a4e7, type: 3}
