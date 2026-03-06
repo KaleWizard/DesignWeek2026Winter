@@ -9,12 +9,16 @@ public class BlowOffStructure : BlowBehaviour
     [SerializeField] List<GameObject> objsToReparent = new();
 
     public bool dontDetach = false;
+    [SerializeField] bool ignorePlayer = false;
+
+    int playerLayerHash;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.isKinematic = true;
+        playerLayerHash = LayerMask.NameToLayer("Player");
     }
 
     protected override void OnBlown(Vector3 blowVector)
@@ -24,6 +28,7 @@ public class BlowOffStructure : BlowBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.layer == playerLayerHash) return;
         if (TryDetach(collision.impulse))
         {
             if (collision.rigidbody != null)
