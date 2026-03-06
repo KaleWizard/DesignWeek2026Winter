@@ -251,6 +251,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &2694898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -514,6 +515,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &11373437
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -643,6 +645,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &17439172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1772,6 +1775,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &46746926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2379,6 +2383,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!4 &55014875 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7179222262409077668, guid: 01c9fa01f746ada40b5b5dc9dcb9a4e7, type: 3}
@@ -3046,6 +3051,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!4 &80291352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7129341274211874906, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
@@ -3067,6 +3073,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &81218823
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3703,6 +3710,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1 &105762788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3890,6 +3898,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &117640844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4205,6 +4214,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!4 &124768650 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7129341274211874906, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
@@ -4395,6 +4405,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &127811886
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5720,6 +5731,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &196476530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6623,6 +6635,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &219965305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7166,6 +7179,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &237060619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7301,6 +7315,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &243925540
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8536,6 +8551,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!4 &278800500 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7638633385550378995, guid: b7d7f1de61e68204e8297ed0b28bab8e, type: 3}
@@ -9519,6 +9535,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &300360826
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9700,6 +9717,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1 &309749976
 GameObject:
   m_ObjectHideFlags: 0
@@ -10001,6 +10019,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &315047458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10670,6 +10689,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!4 &334625304 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7129341274211874906, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
@@ -10770,6 +10790,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &336835575
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13513,6 +13534,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &431414471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14702,6 +14724,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &460649139
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14767,6 +14790,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &460649142
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15424,6 +15448,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &490424085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15668,6 +15693,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1 &497898209
 GameObject:
   m_ObjectHideFlags: 0
@@ -16789,6 +16815,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &545479807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16854,6 +16881,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &545479810
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17676,6 +17704,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &580691840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17808,6 +17837,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &592027268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18402,6 +18432,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1 &617851241 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8450d035c191f0c49a67663b42888706, type: 3}
@@ -18477,6 +18508,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!4 &618241789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7129341274211874906, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
@@ -18669,6 +18701,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &620431232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18929,6 +18962,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &629249663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19533,6 +19567,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &652136530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20269,6 +20304,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &671435720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20515,6 +20551,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &675819696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20908,6 +20945,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &688818482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21150,6 +21188,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &690609499
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21274,6 +21313,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &694012125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21446,6 +21486,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &706425759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22010,6 +22051,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &727254049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23312,6 +23354,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &752516855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24075,6 +24118,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1 &780875500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8450d035c191f0c49a67663b42888706, type: 3}
@@ -24150,6 +24194,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &785942648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26871,6 +26916,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &930067511
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27806,6 +27852,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1 &951469586
 GameObject:
   m_ObjectHideFlags: 0
@@ -28251,6 +28298,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &967011895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28920,6 +28968,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &990888129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29546,6 +29595,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1 &1010774322 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 68db0e401269c5d4087c3297c6688fda, type: 3}
@@ -29572,6 +29622,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1010774325
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30203,6 +30254,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1034759231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30630,6 +30682,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1 &1045202474
 GameObject:
   m_ObjectHideFlags: 0
@@ -31056,6 +31109,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1051696637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31837,6 +31891,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1072378319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32413,6 +32468,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1 &1105329768 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0930b566077821742a6ec345090e2137, type: 3}
@@ -32488,6 +32544,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!4 &1105713982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7129341274211874906, guid: 81c7f4eb14087e34d90ae3aa543b79ad, type: 3}
@@ -32625,6 +32682,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1110453533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33824,6 +33882,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1182283965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34137,6 +34196,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1191456542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35029,6 +35089,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1216298753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35342,6 +35403,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1234349942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35547,6 +35609,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1241665171
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36778,6 +36841,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1282957544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36910,6 +36974,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1 &1284933582 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8450d035c191f0c49a67663b42888706, type: 3}
@@ -36985,6 +37050,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1288185898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37348,6 +37414,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1 &1293792517
 GameObject:
   m_ObjectHideFlags: 0
@@ -39122,6 +39189,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1352584281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39669,6 +39737,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1373351325
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39734,6 +39803,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1373351328
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -43240,6 +43310,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1485756475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43430,6 +43501,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1499188032
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -43673,6 +43745,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1503993960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44568,6 +44641,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1530019856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44947,6 +45021,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1542783598
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -46426,6 +46501,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!4 &1598448108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6837862105320938340, guid: acd5784051bce284685ec609795a5d3d, type: 3}
@@ -47072,6 +47148,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1641162041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47622,6 +47699,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!114 &1661762990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47638,6 +47716,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1661762991
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -47942,6 +48021,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1670960615
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -48007,6 +48087,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1670960618
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -48718,6 +48799,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1704501995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49173,6 +49255,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1719595787
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49564,6 +49647,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1724769571
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49629,6 +49713,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1724769574
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49753,6 +49838,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1 &1726621352
 GameObject:
   m_ObjectHideFlags: 0
@@ -50545,6 +50631,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1744055166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51871,6 +51958,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1795244865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52641,6 +52729,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1 &1814045693
 GameObject:
   m_ObjectHideFlags: 0
@@ -53188,6 +53277,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1829161734
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -53253,6 +53343,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1829161737
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -53495,6 +53586,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1830469759
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -53560,6 +53652,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1830469762
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -53750,6 +53843,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1836312985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54585,6 +54679,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1865865844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55291,6 +55386,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &1886573977
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -55815,6 +55911,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1899607168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56520,6 +56617,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1 &1928554892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0930b566077821742a6ec345090e2137, type: 3}
@@ -56595,6 +56693,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1 &1928830411 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0930b566077821742a6ec345090e2137, type: 3}
@@ -56670,6 +56769,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1929242388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57095,6 +57195,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1960016501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57232,6 +57333,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &1965077696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57673,6 +57775,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1976874513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57974,6 +58077,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &1983544903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58427,6 +58531,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!54 &2001500855
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -60107,6 +60212,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1 &2052892126
 GameObject:
   m_ObjectHideFlags: 0
@@ -61805,6 +61911,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1 &2082620314
 GameObject:
   m_ObjectHideFlags: 0
@@ -62608,6 +62715,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1001 &2101108836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63430,6 +63538,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 0
 --- !u!1001 &2126022837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63578,6 +63687,7 @@ MonoBehaviour:
   collidersToDisable: []
   objsToReparent: []
   dontDetach: 0
+  ignorePlayer: 1
 --- !u!1 &2133027769
 GameObject:
   m_ObjectHideFlags: 0
