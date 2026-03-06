@@ -33,7 +33,7 @@ public class BlowInstrument : BlowBehaviour
             direction = other.forward,
             origin = other.position,
         };
-        if (type == Type.Horn && (!col.Raycast(ray, out var _, 3f) || Vector3.Dot(transform.forward.normalized, other.forward.normalized) < 0.5f))
+        if (type == Type.Horn && (!col.Raycast(ray, out var _, 6f) || Vector3.Dot(transform.forward.normalized, other.forward.normalized) < 0.5f))
             return;
 
         if (type == Type.Bottle && (!col.Raycast(ray, out var _, 3f) || Mathf.Abs(Vector3.Dot(transform.up.normalized, other.forward.normalized)) > 0.5f))
