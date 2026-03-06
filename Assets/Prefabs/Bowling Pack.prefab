@@ -70,7 +70,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &4440221171352591766
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -246,7 +247,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -304,6 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &439430940899122008
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -464,7 +466,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -522,6 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &5255566197859335802
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -640,7 +643,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -698,6 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &7752367902294549627
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -816,7 +820,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -874,6 +878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &1197760360432613300
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -992,7 +997,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1050,6 +1055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &7131479770881363053
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1168,7 +1174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1226,6 +1232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &7567681362717906347
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1344,7 +1351,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1402,6 +1409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &941744654273440642
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1519,7 +1527,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1576,6 +1584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &1297358000614559169
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1673,7 +1682,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1731,6 +1740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &7897397476080545555
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1849,7 +1859,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7dea500bd008a043aead70e2eaa846a, type: 2}
+  - {fileID: 2100000, guid: 4c1821da1f2d2304c889909ea54eec35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1907,6 +1917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63aad07a7ef600478438f7f845450cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlowInDirection
+  amplify: 0
 --- !u!54 &2025438600965451479
 Rigidbody:
   m_ObjectHideFlags: 0
