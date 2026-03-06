@@ -62,6 +62,8 @@ public class WindmillRotate : BlowBehaviour
 
         isPopped = true;
 
+        windmillAudio.Stop();
+
         foreach (var structure in triggerStructures)
         {
             structure.dontDetach = false;
