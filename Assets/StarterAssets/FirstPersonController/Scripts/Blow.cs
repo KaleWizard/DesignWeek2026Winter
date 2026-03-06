@@ -76,17 +76,21 @@ public class Blow : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent<BlowBehaviour>(out var bb))
+        var cs = other.GetComponents<BlowBehaviour>();
+        if (cs != null && cs.Length > 0)
         {
-            blowBodies.Add(bb);
+            foreach (var bb in cs)
+                blowBodies.Add(bb);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.TryGetComponent<BlowBehaviour>(out var bb))
+        var cs = other.GetComponents<BlowBehaviour>();
+        if (cs != null && cs.Length > 0)
         {
-            blowBodies.Remove(bb);
+            foreach (var bb in cs)
+                blowBodies.Remove(bb);
         }
     }
 
